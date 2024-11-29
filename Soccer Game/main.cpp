@@ -83,7 +83,8 @@ public:
 
 void ball(int x, int y, Circle& c); // set ball position
 void player(int px1, int py1, Line* lines, Circle* head, int n); //set player position
-/********** Main Function **********/
+/************************************** Main Function ****************************************/
+//  Handles player input, ball movement, score updates, and rendering.
 int main() {
     // Initialize graphics
     int gd = DETECT, gm;
