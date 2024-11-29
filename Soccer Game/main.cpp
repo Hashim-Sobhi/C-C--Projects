@@ -1,3 +1,7 @@
+/* Hashim Sobhi  */
+/*  11/28/2024   */
+/* DOSBox 0.74-3 */
+//*************************** Simple Soccer Game *******************************/
 #include <iostream.h>
 #include <graphics.h>
 #include <conio.h>
@@ -515,13 +519,13 @@ void Picture::paint() {
 
 /********************************************************/
 
-void ball(int x, int y, Circle& b){ //set ball position
+void ball(int x, int y, Circle& b){ //update ball position
 	setcolor(BLUE);
 	b.c.setX(x);
 	b.c.setY(y);
 }
 
-void player(int px1, int py1, Line* lines, Circle* head, int n){ //set player position
+void player(int px1, int py1, Line* lines, Circle* head, int n){ //update player position
 	if(n == 1)
 		setcolor(WHITE);
 	else setcolor(BROWN);
